@@ -16,7 +16,7 @@ namespace ConsoleApp1
                 Console.WriteLine("Nhap gia tri vi tri {0}", i+1);
                 a[i] = Convert.ToInt32(Console.ReadLine());
             }
-            foreach (int i in ba1)
+            foreach (int i in a)
             {
                 Console.WriteLine("Vi tri thu {0} co gia tri", i);
                 Console.WriteLine(i);
@@ -32,11 +32,10 @@ namespace ConsoleApp1
                 a[i] = Convert.ToInt32(Console.ReadLine());
             }
             Console.WriteLine("");
-            for (int i = a.Length; i > 0; i--)
+            Array.Reverse(a);
+            for (int i = 0; i < a.Length; i++)
             {
-                
-                Console.WriteLine("Vi tri thu {0} co gia tri", i);
-                Console.WriteLine(i);
+                Console.WriteLine(a[i]);
             }
             */
             #endregion
@@ -131,7 +130,6 @@ namespace ConsoleApp1
             #endregion
             #region Bài 5
 
-            #region a Tính tổng của mảng
             /*
             int Min = 0;
             int Max = 100;
@@ -145,6 +143,10 @@ namespace ConsoleApp1
                 Console.WriteLine("Vi tri thu {0} co gia tri", i);
                 Console.WriteLine(a[i]);
             }
+            Console.Writeline("Hay chon cau lenh ban muon thuc hien");
+            Console.Writeline("Tinh tong cac gia tri trong mang (nhan phim 1)")
+            Console.Writeline("Dem cac so nho hon 10 (nhan phim 2)")
+            Console.Writeline("Tao mang moi va tinh tong tu 0 den cac gia tri nho hon hoac bang 19 (nhan phim 3) ")
             Console.ReadKey();
             int sum = 0;
             foreach (int i in a)
@@ -152,7 +154,7 @@ namespace ConsoleApp1
                 sum += i;
             }
             Console.WriteLine("Tong cua mang tren la: {0}", sum);*/
-            #endregion
+
             #region b Đếm các số bé hơn 10 trong mảng
             /*
              int Min = 0;
