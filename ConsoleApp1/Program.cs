@@ -79,7 +79,8 @@ namespace ConsoleApp1
              */
             #endregion
             #region Bài 4
-            /*int[] a = new int[10];
+            /*
+             int[] a = new int[10];
             int max = 0;
             for (int i = 0; i < a.Length; i++)
             {
@@ -242,7 +243,8 @@ namespace ConsoleApp1
             }*/
             #endregion
             #region Bài 7
-            /*int find;
+            /*
+            int find;
             int[] a = new int[20];
             Random randNum = new Random();
             for (int i = 0; i < a.Length; i++)
@@ -289,7 +291,47 @@ namespace ConsoleApp1
              }
              Console.WriteLine("gia tri lon nhat la: {0} tai vi tri {1}",giatri,vitri);*/
             #endregion
+            #region            Bài 9
+            /*
+            int[] a = new int[20];
+            int[] b = new int[20];
+            int Max = 10;
+            int Min = 1;
+            Random randNum = new Random();
+            for (int i = 0; i < a.Length; i++) // Tạo ra mảng a với giá trị random
+            {
+                a[i] = randNum.Next(Min, Max);
+                Console.WriteLine("Vi tri thu {0} cua mang 1 co gia tri", i);
+                Console.WriteLine(a[i]);
+            }
+            for (int i = 0; i < b.Length; i++) // Tạo ra mảng b với giá trị random
+            {
+                b[i] = randNum.Next(Min, Max);
+                Console.WriteLine("Vi tri thu {0} cua mang 2 co gia tri", i);
+                Console.WriteLine(b[i]);
+            }
+            int count = 0;
+            for (int i = 0; i < a.Length; i++)
+            {
+                for (int j = 0; j < b.Length; j++)
+                {
+                    if (b[j] == a[i])
+                    {
+                        count += 1;
+                        break;
+                    }
+                }
+                
+            }
+            Console.WriteLine("-{0}",count);
+            if(count==20)
+                Console.WriteLine("2 mang trung nhau");
+            else
+                Console.WriteLine("2 mang khong trung nhau");*/
+            #endregion
+            
         }
-
     }
+
+    
 }
