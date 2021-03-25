@@ -23,10 +23,10 @@ namespace BTthem15_RemoveACharacter
                 {
                     tmp[i] =(char)0;
                 }
-                continue;
             }
             tmp.ToString();
             Console.WriteLine(tmp);
+           
         }
     }
 }
