@@ -4,13 +4,14 @@ namespace BT8_Find_the_maximum_element_of_an_array
 {
     class Program
     {
+        public const int sizeOfArray = 20;
         static void Main(string[] args)
         {
             int vitri = 0;
             int giatri = 0;
-            int[] a = new int[20];
+            int[] a = new int[sizeOfArray];
             Random randNum = new Random();
-            for (int i = 0; i < a.Length; i++)
+            for (int i = 0; i < sizeOfArray; i++)
             {
                 a[i] = randNum.Next();
                 Console.WriteLine("Vi tri thu {0} co gia tri", i);
@@ -18,7 +19,7 @@ namespace BT8_Find_the_maximum_element_of_an_array
             }
             Console.ReadKey();
             Console.WriteLine();
-            for (int i = 0; i < a.Length; i++)
+            for (int i = 0; i < sizeOfArray; i++)
             {
                 if (giatri < a[i])
                 {

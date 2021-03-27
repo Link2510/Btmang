@@ -4,11 +4,12 @@ namespace BT6_Copy_and_double
 {
     class Program
     {
+        public const int sizeOfArray = 1000;
         static void Main(string[] args)
         {
             int count = 0;
-            int[] a = new int[1000];
-            for (int i = 0; i < a.Length; i++)
+            int[] a = new int[sizeOfArray];
+            for (int i = 0; i < sizeOfArray; i++)
             {
                 Console.WriteLine("Nhap gia tri cua vi tri thu {0}", i + 1);
                 a[i] = Int32.Parse(Console.ReadLine());

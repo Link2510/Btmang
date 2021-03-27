@@ -4,11 +4,12 @@ namespace Prettyprint02
 {
     class Program
     {
+        public const int sizeOfArray = 10;
         static void Main(string[] args)
         {
-            int[] a = new int[10];
+            int[] a = new int[sizeOfArray];
             int max = 0;
-            for (int i = 0; i < a.Length; i++)
+            for (int i = 0; i < sizeOfArray; i++)
             {
                 Console.WriteLine("Nhap gia tri vi tri {0}", i);
                 a[i] = Convert.ToInt32(Console.ReadLine());
@@ -22,7 +23,7 @@ namespace Prettyprint02
                 max = max / 10;
             }
             Console.WriteLine(count);
-            for (int i = 0; i < a.Length; i++)
+            for (int i = 0; i < sizeOfArray; i++)
             {
 
                 for (int j = 0; j <= count; j++)
@@ -33,12 +34,12 @@ namespace Prettyprint02
 
             }
             Console.WriteLine();
-            for (int i = 0; i < a.Length; i++)
+            for (int i = 0; i < sizeOfArray; i++)
             {
                 Console.Write("-----");
             }
             Console.WriteLine();
-            for (int i = 0; i < a.Length; i++)
+            for (int i = 0; i < sizeOfArray; i++)
             {
 
                 Console.Write("|");
@@ -50,7 +51,7 @@ namespace Prettyprint02
 
             }
             Console.WriteLine();
-            for (int i = 0; i < a.Length; i++)
+            for (int i = 0; i < sizeOfArray; i++)
             {
                 Console.Write("-----");
             }

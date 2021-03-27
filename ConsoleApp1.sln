@@ -29,9 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTthem12-Primality Test", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTthem13-The Sieve of Eratosthen", "BTthem13-The Sieve of Eratosthen\BTthem13-The Sieve of Eratosthen.csproj", "{EB9EDF68-2E05-4187-A3B1-5477428615DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTthem14-Reverse Integer", "BTthem14-Reverse Integer\BTthem14-Reverse Integer.csproj", "{BDD32EFB-19AF-43EB-9754-EBF8E6A315BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTthem14-Reverse Integer", "BTthem14-Reverse Integer\BTthem14-Reverse Integer.csproj", "{BDD32EFB-19AF-43EB-9754-EBF8E6A315BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTthem15-RemoveACharacter", "BTthem15-RemoveACharacter\BTthem15-RemoveACharacter.csproj", "{CE073E7E-F67B-4663-9A2C-06F3306D82F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTthem15-RemoveACharacter", "BTthem15-RemoveACharacter\BTthem15-RemoveACharacter.csproj", "{CE073E7E-F67B-4663-9A2C-06F3306D82F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTthem16-Sanitiser", "BTthem16-Sanitiser\BTthem16-Sanitiser.csproj", "{42458DAE-0C64-43D5-AB6E-B1BEE7E7679B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{CE073E7E-F67B-4663-9A2C-06F3306D82F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE073E7E-F67B-4663-9A2C-06F3306D82F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE073E7E-F67B-4663-9A2C-06F3306D82F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42458DAE-0C64-43D5-AB6E-B1BEE7E7679B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42458DAE-0C64-43D5-AB6E-B1BEE7E7679B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42458DAE-0C64-43D5-AB6E-B1BEE7E7679B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42458DAE-0C64-43D5-AB6E-B1BEE7E7679B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
