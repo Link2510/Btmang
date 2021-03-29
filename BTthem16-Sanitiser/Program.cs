@@ -7,7 +7,7 @@ namespace BTthem16_Sanitiser
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hay nhap chuoi cua ban vao: ");
+            Console.Write("Hay nhap chuoi cua ban vao: ");
             string tmp = Console.ReadLine();
             char[] ch = new char[tmp.Length];
             for (int i = 0; i < tmp.Length; i++)
