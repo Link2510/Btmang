@@ -20,14 +20,12 @@ namespace BTthem16_Sanitiser
         {
             for (int i = 0; i < a.Length; i++)
             {
-                if ((a[i] >= 0) && (a[i] <= 9))
+               
+                if ((a[i] >=(char)48) && (a[i] <= (char)57))
                 {
                     a[i] = (char)0;
                 }
-                else
-                {
-                    Console.WriteLine("Khong hieu");
-                }
+                
             }
             foreach (char c in a)
             {
