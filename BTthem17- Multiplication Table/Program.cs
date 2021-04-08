@@ -13,10 +13,11 @@ namespace BTthem17__Multiplication_Table
                 for (int column = 0; column < 10; column++)
                 {
                     table[row, column] = (row + 1) * (column + 1);
-                    Console.Write("{0}*{1}={2}",row+1,column+1,table[row, column]);
+                    Console.Write("{0}*{1}={2}", column + 1, row + 1, table[row, column]);
                     if (column < 9)
                     {
                         Console.Write("\t");
+                        
                     }
                     else
                         Console.WriteLine();
