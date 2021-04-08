@@ -37,7 +37,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTthem16-Sanitiser", "BTthe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTthem17- Multiplication Table", "BTthem17- Multiplication Table\BTthem17- Multiplication Table.csproj", "{177762AD-459C-42C7-9A8A-9B7831DFFEDC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sorting", "Sorting\Sorting.csproj", "{7429B95E-D357-49A4-A5DF-79F5B33F4CE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sorting", "Sorting\Sorting.csproj", "{660D8D8C-EE24-4F45-A659-D628BDCA5133}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,10 +113,6 @@ Global
 		{177762AD-459C-42C7-9A8A-9B7831DFFEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{177762AD-459C-42C7-9A8A-9B7831DFFEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{177762AD-459C-42C7-9A8A-9B7831DFFEDC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7429B95E-D357-49A4-A5DF-79F5B33F4CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7429B95E-D357-49A4-A5DF-79F5B33F4CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7429B95E-D357-49A4-A5DF-79F5B33F4CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7429B95E-D357-49A4-A5DF-79F5B33F4CE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
