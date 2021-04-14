@@ -27,6 +27,7 @@ namespace Sorting
                     }
                 }
             }
+            Check(a);
         }
        
         static void DoThoiGian()
@@ -55,6 +56,19 @@ namespace Sorting
             long timeelapsed = st.ElapsedMilliseconds; // thời gian thực hiện
             Console.WriteLine(timeelapsed);
         }
-        
+        static void Check(int[] a) 
+        {
+            for (int i = 0; i < sizeOfArray; i++)
+            {
+                for (int j = 0; j < sizeOfArray; j++)
+                {
+                    if (a[i]>a[j])
+                    {
+                        break;
+                        Console.WriteLine("Error; Do again!!");
+                    }
+                }
+            }
+        }   
     }
 }
