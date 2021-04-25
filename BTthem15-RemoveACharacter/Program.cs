@@ -26,13 +26,12 @@ namespace BTthem15_RemoveACharacter
             {
                 if (i == n)
                 {
-                    c[i] = (char)0;
+                    continue;
                 }
+                else
+                    Console.Write(c[i]);
             }
-            foreach (char b in c)
-            {
-                Console.Write(b);
-            }
+            
         }
     }
 }
